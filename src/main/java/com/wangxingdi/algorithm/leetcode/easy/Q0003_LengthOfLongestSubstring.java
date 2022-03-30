@@ -31,7 +31,7 @@ import java.util.HashMap;
 public class Q0003_LengthOfLongestSubstring {
 
     public static void main(String[] args) {
-        System.out.println("===当前时间戳: "+ DateUtils.getTimestamp());
+        System.out.println("===当前时间戳: "+ DateUtils.getToday());
 
         Q0003_LengthOfLongestSubstring clazz = new Q0003_LengthOfLongestSubstring();
         clazz.testPlus();

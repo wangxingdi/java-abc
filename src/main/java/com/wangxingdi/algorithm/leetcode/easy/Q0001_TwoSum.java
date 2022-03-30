@@ -21,7 +21,7 @@ import java.util.HashMap;
 public class Q0001_TwoSum {
 
     public static void main(String[] args) {
-        String timestamp = DateUtils.getTimestamp();
+        String timestamp = DateUtils.getToday();
         System.out.println("===当前时间戳: "+timestamp);
         Q0001_TwoSum clazz = new Q0001_TwoSum();
         int[] numbs = {2, 7, 11, 15};

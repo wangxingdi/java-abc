@@ -23,7 +23,7 @@ import com.wangxingdi.util.DateUtils;
 public class Q0002_AddTwoNumbers {
 
     public static void main(String[] args) {
-        String timestamp = DateUtils.getTimestamp();
+        String timestamp = DateUtils.getToday();
         System.out.println("===当前时间戳: "+timestamp);
         Q0002_AddTwoNumbers clazz = new Q0002_AddTwoNumbers();
         ListNode head1 = new ListNode(2);
