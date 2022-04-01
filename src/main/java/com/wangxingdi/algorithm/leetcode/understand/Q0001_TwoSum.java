@@ -1,7 +1,6 @@
-package com.wangxingdi.algorithm.leetcode.easy;
+package com.wangxingdi.algorithm.leetcode.understand;
 
 import com.wangxingdi.util.DateUtils;
-import com.wangxingdi.util.ReviewTag;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -17,7 +16,6 @@ import java.util.HashMap;
  * 因为 numbs[0] + numbs[1] = 2 + 7 = 9
  * 所以返回 [0, 1]
  */
-@ReviewTag(value = ReviewTag.JUST_ONCE)
 public class Q0001_TwoSum {
 
     public static void main(String[] args) {
