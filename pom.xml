@@ -12,6 +12,8 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <io.netty.version>4.1.75.Final</io.netty.version>
+        <org.slf4j.version>2.0.0-alpha7</org.slf4j.version>
+        <org.projectlombok.version>1.18.20</org.projectlombok.version>
     </properties>
 
     <dependencies>
@@ -19,6 +21,18 @@
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
             <version>${io.netty.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${org.slf4j.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${org.projectlombok.version}</version>
         </dependency>
     </dependencies>
     
