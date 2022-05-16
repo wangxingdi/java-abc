@@ -53,23 +53,23 @@ public class Q0002_AddTwoNumbers {
         int carry = 0;
         ListNode res = new ListNode(0);
         ListNode tmp = res;
-        while(l1!=null || l2!=null){
-            int add1 = l1==null?0:l1.val;
-            int add2 = l2==null?0:l2.val;
+        while(l1 != null || l2 != null){
+            int add1 = l1 == null ? 0 : l1.val;
+            int add2 = l2 == null ? 0 : l2.val;
             int sum = add1 + add2 + carry;
-            carry = sum/10;
+            carry = sum / 10;
             ListNode node = new ListNode(sum%10);
             tmp.next = node;
             tmp = tmp.next;
-            if(l1!=null){
+            if(l1 != null){
                 l1 = l1.next;
             }
-            if(l2!=null){
+            if(l2 != null){
                 l2 = l2.next;
             }
         }
         //错误点2: 在循环结束后，没有判断carry是否为0
-        if(carry!=0){
+        if(carry != 0){
             ListNode node = new ListNode(carry);
             tmp.next = node;
         }
