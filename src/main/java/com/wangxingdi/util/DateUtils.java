@@ -7,7 +7,6 @@ import java.util.Date;
 /**
  * @author wangxingdi1
  * @date 2022/3/28 17:12
- * @copyright Copyright JD.COM All Right Reserved
  */
 public class DateUtils {
 
